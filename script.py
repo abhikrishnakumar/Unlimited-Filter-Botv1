@@ -1,11 +1,13 @@
 class Script(object):
 
-    START_MSG = """<b>👋Hy {},
+    START_MSG = """<b>👋Hi {},
 
 I'm an advanced filter bot with many capabilities!
-There is no practical limits for my filtering capacity :)
+There is no practical limits for my filtering capacity
 
-See <i>/help</i> for commands and more details.</b>
+See <i>/help</i> for commands and more details
+
+Maintained By: [A̸̐J̵͋ ̢̰8̴̽1̶͐](https://t.me/ajvadntr)</b>
 """
 
 
@@ -48,16 +50,15 @@ See <i>/help</i> for commands and more details.</b>
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
 
-<b>© @Mo_Tech_YT</b>
+<b>[A̸̐J̵͋ ̢̰8̴̽1̶͐](https://t.me/ajvadntr)</b>
 """
 
+    ABOUT_MSG = """<b>My Name : Unlimited Filter Bot</b>
 
-    ABOUT_MSG = """⭕️<b>My Name : MT Unlimited Filter Bot</b>
+<b>Creater :</b> <b>[A̸̐J̵͋ ̢̰8̴̽1̶͐](https://t.me/ajvadntr)</b>    
 
-⭕️<b>Creater :</b> <b>@Mo_Tech_YT</b>    
+<b>Language :</b> <code>Python3</code>
 
-⭕️<b>Language :</b> <code>Python3</code>
-
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
 """
