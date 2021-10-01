@@ -254,7 +254,7 @@ async def help(client, message):
                     InlineKeyboardButton("👤About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("⬅️Back", callback_data="start_data")
+                    InlineKeyboardButton("👨‍💼My Father", url="https://t.me/ajvadntr")
                 ]
             ]
         ),
