@@ -100,11 +100,11 @@ async def showinfo(client, message):
         user_name = "none"
 
     await message.reply_text(
-        f"<b>👨‍💼Name</b> : {name}\n\n"
-        f"<b>📃User ID</b> : <code>{id}</code>\n\n"
-        f"<b>👤Username</b> : {user_name}\n\n"
-        f"<b>🔐Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
-        f"<b>📑DC ID</b> : {dcid}\n\n",
+        f"<b>Name</b> : {name}\n\n"
+        f"<b>User ID</b> : <code>{id}</code>\n\n"
+        f"<b>Username</b> : {user_name}\n\n"
+        f"<b>Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
+        f"<b>DC ID</b> : {dcid}\n\n",
         quote=True,
         parse_mode="html"
     )
@@ -220,12 +220,11 @@ async def start(client, message):
                    InlineKeyboardButton("𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝙷𝚎𝚕𝚙", callback_data="help_data")
                 ],
                 [
-                   InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
-                   InlineKeyboardButton("🤖Bot List", url="https://t.me/Mo_Tech_YT/176"),
-                   InlineKeyboardButton("👨‍💻Source", url="https://youtu.be/KrpqqNNLUSU")
+                   InlineKeyboardButton("👥𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Allfuhk"),
+                   InlineKeyboardButton("👨‍💻Source", url="https://github.com/ajvadntr/Unlimited-Filter-Botv1.git")
                 ],
                 [
-                   InlineKeyboardButton("🔻 Subscribe Now YouTube 🔻", url="https://youtu.be/KrpqqNNLUSU")
+                   InlineKeyboardButton("➕️ Add Me To Your Group", url="https://youtu.be/KrpqqNNLUSU")
                 ]
             ]
         ),
@@ -251,11 +250,11 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
-                    InlineKeyboardButton("About Me👨‍💼", callback_data="about_data")
+                    InlineKeyboardButton("👥𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Allfuhk"),
+                    InlineKeyboardButton("👤About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("🖥️ 𝙷𝚘𝚠 𝚝𝚘 𝙳𝚎𝚙𝚕𝚘𝚢 🖥️", url="https://youtu.be/KrpqqNNLUSU")
+                    InlineKeyboardButton("⬅️Back", callback_data="help_data")
                 ]
             ]
         ),
