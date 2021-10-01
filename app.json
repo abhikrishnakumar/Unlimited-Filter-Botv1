@@ -9,8 +9,8 @@
         "AJ81"
     ],
     "website": "https://github.com/ajvadntr",
-    "repository": "https://github.com/MRK-YT/Unlimited-Filter-Bot",
-    "success_url": "https://telegram.dog/Mo_Tech_YT",
+    "repository": "https://github.com/ajvadntr/Unlimited-Filter-Botv1",
+    "success_url": "https://telegram.dog/ajvadntr",
     "env": {
         "WEBHOOK": {
             "description": "No need to change this field!",
