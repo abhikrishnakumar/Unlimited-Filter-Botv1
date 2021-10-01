@@ -37,7 +37,7 @@ async def cb_handler(client, query):
                    InlineKeyboardButton("👨‍💻Source", url="https://github.com/ajvadntr/Unlimited-Filter-Botv1.git")
                 ],
                 [
-                   InlineKeyboardButton("➕️ Add Me To Your Group", url="https://youtu.be/KrpqqNNLUSU")
+                   InlineKeyboardButton("➕️ Add Me To Your Group", url="http://t.me/AIOM2_Unlimited_Filter_Bot?startgroup=start")
                 ]
             ]
         )
