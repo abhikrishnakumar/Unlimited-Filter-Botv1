@@ -1,13 +1,13 @@
 class Script(object):
 
-    START_MSG = """<b>👋Hi {},
+    START_MSG = """<b>👋Hi {}
 
 I'm an advanced filter bot with many capabilities!
 There is no practical limits for my filtering capacity
 
 See <i>/help</i> for commands and more details
 
-Maintained By: [A̸̐J̵͋ ̢̰8̴̽1̶͐](https://t.me/ajvadntr)</b>
+Maintained By: [A̸̐J̵͋8̴̽1̶͐](https://t.me/ajvadntr)</b>
 """
 
 
@@ -49,11 +49,9 @@ Maintained By: [A̸̐J̵͋ ̢̰8̴̽1̶͐](https://t.me/ajvadntr)</b>
 
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
-
-<b>[A̸̐J̵͋ ̢̰8̴̽1̶͐](https://t.me/ajvadntr)</b>
 """
 
-    ABOUT_MSG = """<b>My Name : Unlimited Filter Bot</b>
+    ABOUT_MSG = """<b>My Name : [Unlimited-Filter-Bot](http://t.me/AIOM2_Unlimited_Filter_Bot)</b>
 
 <b>Creater :</b> <b>[A̸̐J̵͋ ̢̰8̴̽1̶͐](https://t.me/ajvadntr)</b>    
 
